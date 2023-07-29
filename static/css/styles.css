@@ -1,0 +1,74 @@
+body, h1, p, label, select, textarea, input, button {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+    color: #666;
+    text-align: center;
+    padding-top: 30px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#textForm {
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+select {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #0f3f61;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #595c5e;
+}
+
+#resultDiv {
+
+    margin-top: 30px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+audio {
+    align: center;
+    width: 500px;
+    margin: 20px 0;
+}
